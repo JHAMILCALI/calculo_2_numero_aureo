@@ -1,4 +1,4 @@
-import { Statistics } from "./Statistics";
+//import { Statistics } from "./Statistics";
 import pilot from "../assets/logo circ info.png";
 
 export const About = () => {
