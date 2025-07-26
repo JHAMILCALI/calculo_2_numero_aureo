@@ -2,7 +2,8 @@ import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 //import { HeroCards } from "./HeroCards";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-
+import light_img from "../assets/image (1).png";
+import dark_img from "../assets/img dark aureo.png";
 export const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
@@ -48,8 +49,8 @@ export const Hero = () => {
       {/* Hero cards sections */}
       <div className="z-10">
         <div>
-          <img src="/src/assets/img dark aureo.png" alt="" className="block dark:hidden" />
-          <img src="/src/assets/image (1).png" alt="" className="hidden dark:block" />
+          <img src={dark_img} alt="" className="block dark:hidden" />
+          <img src={light_img} alt="" className="hidden dark:block" />
         </div>
       </div>
 
