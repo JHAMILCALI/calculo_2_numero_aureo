@@ -152,14 +152,14 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; 2025 PROYECTO DE{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href="https://github.com/JHAMILCALI/calculo_2_numero_aureo.git"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            CALCULO 2 INVIERNO
           </a>
         </h3>
       </section>

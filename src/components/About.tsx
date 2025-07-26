@@ -1,5 +1,5 @@
 import { Statistics } from "./Statistics";
-import pilot from "../assets/pilot.png";
+import pilot from "../assets/logo circ info.png";
 
 export const About = () => {
   return (
@@ -12,26 +12,34 @@ export const About = () => {
           <img
             src={pilot}
             alt=""
-            className="w-[300px] object-contain rounded-lg"
+            className="w-[200px] object-contain rounded-lg"
           />
           <div className="bg-green-0 flex flex-col justify-between">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{" "}
+                  Integrates{" "}
                 </span>
-                Company
+                del Proyecto
+                <ul className="text-xl  mt-4 text-foreground/80">
+                <li>Jhamil Calixto Mamani Quea</li>
+                <li>Diego Ronald Coyo Luque</li>
+                <li>Joel Francisco Mollericona Paco</li>
+              </ul>
               </h2>
-              <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
-              </p>
+              
+              <h2 className="text-3xl md:text-4xl font-bold">
+                <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+                  Licenciado{" "}
+                </span>
+                en Matemáticas
+                <ul className="text-xl  mt-4 text-foreground/80">
+                  <li>Israel Juan Mamani Quispe</li>
+                </ul>
+              </h2>
             </div>
 
-            <Statistics />
+            {/* <Statistics /> */}
           </div>
         </div>
       </div>

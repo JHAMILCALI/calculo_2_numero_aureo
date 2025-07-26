@@ -26,19 +26,19 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#features",
-    label: "Features",
+    label: "Introducion",
   },
   {
     href: "#testimonials",
-    label: "Testimonials",
+    label: "Origen histórico",
   },
   {
     href: "#pricing",
-    label: "Pricing",
+    label: "Definición matemática",
   },
   {
     href: "#faq",
-    label: "FAQ",
+    label: "El número áureo en la naturaleza",
   },
 ];
 
@@ -49,14 +49,6 @@ export const Navbar = () => {
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
-            <a
-              rel="noreferrer noopener"
-              href="/"
-              className="ml-2 font-bold text-xl flex"
-            >
-              <LogoIcon />
-              ShadcnUI/React
-            </a>
           </NavigationMenuItem>
 
           {/* mobile */}
@@ -96,7 +88,7 @@ export const Navbar = () => {
                   ))}
                   <a
                     rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://github.com/JHAMILCALI/calculo_2_numero_aureo.git"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",
@@ -129,7 +121,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/JHAMILCALI/calculo_2_numero_aureo.git"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
