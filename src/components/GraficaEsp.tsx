@@ -51,6 +51,11 @@ const GraficaEsp = () => {
 
 
       ggb.evalCommand("arc1 = Arc(Circle(O,L), L, N)");
+      ggb.evalCommand("arc2 = Arc(Circle(M,J), J, L)");
+      ggb.evalCommand("arc3 = Arc(Circle(K, H), H, J)");
+      ggb.evalCommand("arc4 = Arc(Circle(I, E), E, H)");
+      ggb.evalCommand("arc5 = Arc(Circle(G, B), B, E)");
+      ggb.evalCommand("arc6 = Arc(Circle(C, F), F, B)");
     }, 1500);
   }, []);
 
