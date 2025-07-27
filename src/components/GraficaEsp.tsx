@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const GraficaEsp = () => {
   useEffect(() => {
@@ -35,7 +35,7 @@ const GraficaEsp = () => {
       ggb.evalCommand("F = (8.09, 0)");
       ggb.evalCommand("P = (8.09, 5)");
 
-      const poligono = ggb.evalCommand("Polygon(A, F, P, D)");
+      ggb.evalCommand("Polygon(A, F, P, D)");
 
       ggb.evalCommand("pol2 = Polygon(F, P, 4)");
       ggb.evalCommand("pol3 = Polygon(B, D, 4)");
