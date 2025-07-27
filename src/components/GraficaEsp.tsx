@@ -50,7 +50,7 @@ const GraficaEsp = () => {
       //ggb.setVisible("c", false);
 
 
-      ggb.evalCommand("arc1 = Arc(Circle(O,L), J, L)");
+      ggb.evalCommand("arc1 = Arc(Circle(O,L), L, N)");
     }, 1500);
   }, []);
 
