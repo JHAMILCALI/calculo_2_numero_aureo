@@ -29,8 +29,8 @@ const routeList: RouteProps[] = [
     label: "Introducion",
   },
   {
-    href: "#testimonials",
-    label: "Origen histórico",
+    href: "#definicion",
+    label: "Definición",
   },
   {
     href: "#pricing",
@@ -39,6 +39,10 @@ const routeList: RouteProps[] = [
   {
     href: "#faq",
     label: "El número áureo en la naturaleza",
+  },
+  {
+    href: "#arte",
+    label: "arte y arquitectura",
   },
 ];
 

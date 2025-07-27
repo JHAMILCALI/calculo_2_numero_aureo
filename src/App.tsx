@@ -1,10 +1,10 @@
 import { About } from "./components/About";
 // import { Cta } from "./components/Cta";
 // import { FAQ } from "./components/FAQ";
-// import { Features } from "./components/Features";
+import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { HowItWorks } from "./components/HowItWorks";
+//import { HowItWorks } from "./components/HowItWorks";
 import { Navbar } from "./components/Navbar";
 // import { Newsletter } from "./components/Newsletter";
 //import { Pricing } from "./components/Pricing";
@@ -14,6 +14,8 @@ import { Introducion} from "./components/Introducion";
 //import { Team } from "./components/Team";
 //import { Testimonials } from "./components/Testimonials";
 import "./App.css";
+import { Origen } from "./components/Origen";
+import GraficaEsp from "./components/GraficaEsp";
 
 function App() {
   return (
@@ -22,10 +24,12 @@ function App() {
       <Hero />
       <About />
       <Introducion/>
-    
-      <HowItWorks />
-      {/* <Features />
-      <Services />
+      <Origen />
+      <GraficaEsp />
+      
+      {/* <HowItWorks /> */}
+      <Features />
+      {/* <Services />
       <Cta />
       <Testimonials />
       <Team />
@@ -39,3 +43,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
