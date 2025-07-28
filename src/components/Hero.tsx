@@ -1,7 +1,7 @@
-import { Button } from "./ui/button";
+
 import { buttonVariants } from "./ui/button";
 // import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+
 import light_img from "../assets/image (1).png";
 import dark_img from "../assets/img dark aureo.png";
 import { motion } from "framer-motion";
