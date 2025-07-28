@@ -19,7 +19,7 @@ export const Introducion = () => {
     return () => clearInterval(interval);
   }, [phiText.length]);
   return (
-    <section id="sponsors" className="container pt-24 sm:py-32">
+    <section id="introducion" className="container pt-24 sm:py-32">
       <h2 className="text-center text-md font-bold mb-8 text-primary text-4xl">
         Introducion del Número Áureo
       </h2>

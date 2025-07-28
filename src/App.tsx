@@ -1,7 +1,7 @@
 import { About } from "./components/About";
 // import { Cta } from "./components/Cta";
 // import { FAQ } from "./components/FAQ";
-import { Features } from "./components/Features";
+//import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 //import { HowItWorks } from "./components/HowItWorks";
@@ -16,6 +16,7 @@ import { Introducion} from "./components/Introducion";
 import "./App.css";
 import { Origen } from "./components/Origen";
 import GraficaEsp from "./components/GraficaEsp";
+import { Definicion } from "./components/Definicion";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       <GraficaEsp />
       
       {/* <HowItWorks /> */}
-      <Features />
+      <Definicion />
       {/* <Services />
       <Cta />
       <Testimonials />
