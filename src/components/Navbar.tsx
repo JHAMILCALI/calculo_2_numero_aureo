@@ -42,12 +42,20 @@ const routeList: RouteProps[] = [
     label: "Represntacion",
   },
   {
-    href: "#faq",
-    label: "El número áureo en la naturaleza",
+    href: "#naturaleza",
+    label: "Rep. Naturaleza",
   },
   {
     href: "#arte",
     label: "arte y arquitectura",
+  },
+  {
+    href: "#tiwanaku",
+    label: "Tiwanaku",
+  },
+  {
+    href: "#diseno-moderno",
+    label: "Diseño Moderno",
   },
 ];
 

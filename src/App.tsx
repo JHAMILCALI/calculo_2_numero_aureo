@@ -15,9 +15,12 @@ import { Introducion} from "./components/Introducion";
 //import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 import { Origen } from "./components/Origen";
-import GraficaEsp from "./components/GraficaEsp";
 import { Definicion } from "./components/Definicion";
 import { Represntacion } from "./components/Representacion";
+import { Naturaleza } from "./components/Naturaleza";
+import { Arte } from "./components/Arte";
+import { Tiwanaku } from "./components/Tiwanaku";
+import { DisenoModerno } from "./components/Diseño";
 
 function App() {
   return (
@@ -33,6 +36,10 @@ function App() {
       <Definicion />
       <Origen />
       <Represntacion/>
+      <Naturaleza/>
+      <Arte/>
+      <Tiwanaku/>
+      <DisenoModerno/>
       {/* <Services />
       <Cta />
       <Testimonials />

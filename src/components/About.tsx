@@ -8,6 +8,12 @@ export const About = () => {
       className="container py-24 sm:py-32"
     >
       <div className="bg-muted/50 border rounded-lg py-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center">
+          <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+            PROYECTO DE CALCULO 2 - INVIERNO 2025
+          </span>
+        </h2>
+        <br /><br />
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
             src={pilot}
@@ -32,7 +38,6 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   Licenciado{" "}
                 </span>
-                en Matemáticas
                 <ul className="text-xl  mt-4 text-foreground/80">
                   <li>Israel Juan Mamani Quispe</li>
                 </ul>
