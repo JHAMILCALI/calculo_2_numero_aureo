@@ -34,8 +34,12 @@ const routeList: RouteProps[] = [
     label: "Definición",
   },
   {
-    href: "#pricing",
-    label: "Definición matemática",
+    href: "#origen",
+    label: "Origen e Historia",
+  },
+  {
+    href: "#representacion",
+    label: "Represntacion",
   },
   {
     href: "#faq",

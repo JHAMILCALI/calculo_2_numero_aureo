@@ -17,6 +17,7 @@ import "./App.css";
 import { Origen } from "./components/Origen";
 import GraficaEsp from "./components/GraficaEsp";
 import { Definicion } from "./components/Definicion";
+import { Represntacion } from "./components/Representacion";
 
 function App() {
   return (
@@ -25,11 +26,13 @@ function App() {
       <Hero />
       <About />
       <Introducion/>
-      <Origen />
-      <GraficaEsp />
+      
+      {/* <GraficaEsp /> */}
       
       {/* <HowItWorks /> */}
       <Definicion />
+      <Origen />
+      <Represntacion/>
       {/* <Services />
       <Cta />
       <Testimonials />
