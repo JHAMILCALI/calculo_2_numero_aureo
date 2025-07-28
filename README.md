@@ -101,7 +101,7 @@ Puedes controlar su tamaño con clases como:
 git clone https://github.com/JHAMILCALI/calculo_2_numero_aureo.git
 ```
 ```bash
-cd proporcion-aurea
+cd calculo_2_numero_aureo
 ```
 1. Instala las dependencias
 ```bash
