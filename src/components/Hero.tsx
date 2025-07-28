@@ -65,21 +65,30 @@ export const Hero = () => {
           artísticas.
         </p>
 
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Informe</Button>
-
+        {/* Botones: Informe y Diapositivas */}
+        <div className="flex flex-col md:flex-row justify-center md:justify-start gap-4">
           <a
             rel="noreferrer noopener"
-            href="https://github.com/JHAMILCALI/calculo_2_numero_aureo.git"
+            href="https://drive.google.com/file/d/1-kxSTgsSn5N8nufYiXFjKU9__IcCPH7w/view?usp=sharing"
             target="_blank"
-            className={`w-full md:w-1/3 ${buttonVariants({
+            className={`w-full md:w-1/3 bg-green-500 ${buttonVariants({
               variant: "outline",
             })}`}
           >
-            Github Repositorio
-            <GitHubLogoIcon className="ml-2 w-5 h-5" />
+            Informe
+          </a>
+          <a
+            rel="noreferrer noopener"
+            href="https://www.canva.com/design/DAGuZeO8HFs/uJ2bvdLxibju85SHzYtkWQ/edit?utm_content=DAGuZeO8HFs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target="_blank"
+            className={`w-full md:w-1/3 bg-blue-600 ${buttonVariants({
+              variant: "outline",
+            })}`}
+          >
+            Diapositivas
           </a>
         </div>
+
       </div>
 
       {/* Hero cards sections */}
